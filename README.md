@@ -1,7 +1,7 @@
-# todo_list_cubit
+# todo_list
 
-A simple todo list with Integration Test and Unity test.
-for state managment i use Cubit
+- A simple todo list with Integration Test and Unity test.
+- For state managment i use Cubit and BloC pattern
 
 ## Getting Started
 
