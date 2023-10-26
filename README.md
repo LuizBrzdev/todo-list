@@ -1,6 +1,7 @@
 # todo_list_cubit
 
-A new Flutter project.
+A simple todo list with Integration Test and Unity test.
+for state managment i use Cubit
 
 ## Getting Started
 
