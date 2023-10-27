@@ -1,6 +1,7 @@
-# todo_list_cubit
+# todo_list
 
-A new Flutter project.
+- A simple todo list with Integration Test and Unity test.
+- For state managment i use Cubit and BloC pattern
 
 ## Getting Started
 
