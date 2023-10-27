@@ -19,11 +19,7 @@ class BoardCubit extends Cubit<BoardState> {
     emit(LoadingBordState());
     try {
       final tasks = await repository.fetch();
-      if (tasks.isEmpty) {
-        emit(EmptyBoardState());
-      } else {
-        emit(GettedTaskBoardState(tasks: tasks));
-      }
+      emit(GettedTaskBoardState(tasks: tasks));
     } catch (e) {
       emit(FailureBoardState(message: 'Error'));
     }
