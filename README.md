@@ -1,17 +1,25 @@
+# Example Below
+
+![App Example](https://github.com/LuizBrzdev/todo-list/assets/80968939/5eaca900-de00-4284-b92a-0be9b62661af)
+
 # todo_list
 
 - A simple todo list with Integration Test and Unity test.
 - For state managment i use Cubit and BloC pattern
+- For Code Quality i used Flutter Lint
 
-## Getting Started
+- Packages
+- https://pub.dev/packages/flutter_bloc
+- https://pub.dev/packages/isar
+- https://pub.dev/packages/equatable
+- https://pub.dev/packages/intl
+- https://pub.dev/packages/mocktail
+- https://pub.dev/packages/flutter_launcher_icons
 
-This project is a starting point for a Flutter application.
+# Use Cases
 
-A few resources to get you started if this is your first Flutter project:
+- Add a new Task
+- Change de task state do Done
+- Delete the Task
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
